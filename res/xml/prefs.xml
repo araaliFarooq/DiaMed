@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" >
+  
+  <CheckBoxPreference
+    android:key = "pref1"
+    android:title = "@string/pref1_title"
+    android:summary = "@string/pref1_summary"
+    android:defaultValue = "true" />
+  
+  <CheckBoxPreference
+    android:key = "pref4"
+    android:title = "@string/pref4_title"
+    android:summary = "@string/pref4_summary"
+    android:defaultValue = "true" />
+  
+  
+  <CheckBoxPreference
+    android:key = "pref5"
+    android:title = "@string/pref5_title"
+    android:summary = "@string/pref5_summary"
+    android:defaultValue = "true" />
+    
+     <CheckBoxPreference
+    android:key = "pref6"
+    android:title = "@string/pref6_title"
+    android:summary = "@string/pref6_summary"
+    android:defaultValue = "true" />
+     
+    <CheckBoxPreference
+    android:key = "pref7"
+    android:title = "@string/pref7_title"
+    android:summary = "@string/pref7_summary"
+    android:defaultValue = "true" />
+    
+    <PreferenceCategory
+        android:title="@string/background_updating">
+        <CheckBoxPreference
+            android:title="@string/pref_title_background_update_flag"
+            android:summary="@string/pref_summary_background_update_flag"
+            android:key="@string/pref_key_flag_background_update" />
+    </PreferenceCategory>
+    
+        
+</PreferenceScreen>

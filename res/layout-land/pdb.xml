@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent"
+>
+<LinearLayout 
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<TextView
+		android:text="
+    You have prediabetes.....
+    
+    To avoid it from developing into type 2.
+    
+    You should watch your weight by doing exercises.
+    
+    You should take a balanced diet including saturated fat and soluble fiber.
+       
+    "
+		android:textSize="15px" android:textStyle="bold" android:gravity="center"
+		android:id="@+id/textView1" android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		   android:layout_gravity="center" 
+		></TextView>
+		
+		<LinearLayout
+		android:gravity="center"
+		android:layout_gravity="center"
+		
+		android:orientation="horizontal" android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+		>
+	<ImageView 
+	android:layout_gravity="center"
+	   android:gravity="center" 
+	android:id="@+id/imageView1" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:src="@drawable/healthyliving4"
+		android:layout_x="74dp" android:layout_y="368dp"></ImageView>
+		
+	<ImageView 
+	android:layout_gravity="center"
+	android:id="@+id/imageView2" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:src="@drawable/liquiddiet"
+		android:layout_x="174dp" android:layout_y="368dp"></ImageView>
+		</LinearLayout>
+	<Button
+	android:gravity="center"
+	android:layout_gravity="center"
+	 android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:id="@+id/button1"
+		android:text="Finish" android:layout_x="124dp" android:layout_y="258dp"></Button>
+
+
+</LinearLayout>
+</ScrollView>

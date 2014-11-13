@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="bgcolor">#ff000000</color>
+    <color name="bgcolor2">#FFCCCCCC</color>
+    <color name="buttontextcolor">#FF000000</color>
+    <color name="titleColor">#FFEEFFEE</color>
+    <color name="dialogTextColor">#FFEEFFEE</color>
+    <color name="mainTextColor">#FFFFFFFF</color>
+    <color name="red">#FF000F</color>
+    <color name="white">#FFF</color>
+    <color name="l_blue">#909BAA</color>
+    <color name="d_blue">#6D7B92</color>
+    <color name="gray">#CCCCCC</color>
+    <color name="d_gray">#666</color>
+    <color name="black">#000</color>
+
+</resources>

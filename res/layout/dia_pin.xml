@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/bckgrnd"
+        >
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:padding="10dip" >
+        <!--  View Title Label #3b3b3b-->
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:text="SET PIN"
+                android:textSize="25dip"
+                android:textStyle="bold" />
+        <!--  Email Label -->
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="New Pin" />
+        <!--  Email TextField -->
+        <EditText
+                android:id="@+id/pin"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+        <!--  Password Label -->
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dip"
+                android:text="Confirm Pin" />
+        <!--  Password TextField -->
+        <EditText
+                android:id="@+id/confirm"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:password="true" />
+
+
+
+
+
+<LinearLayout android:layout_width="fill_parent" android:gravity="center" android:orientation="horizontal"  android:layout_height="wrap_content">
+    <Button android:id="@+id/set" android:layout_width="90dp" android:text="SAVE" android:layout_height="wrap_content" android:layout_x="35dp" android:layout_y="324dp"></Button>
+    <ToggleButton
+            android:checked="true"
+            android:id="@+id/toggleButton1" android:text="ToggleButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="133dp" android:layout_y="325dp"></ToggleButton>
+    <Button android:id="@+id/cancel2" android:layout_width="97dp" android:text="Cancel" android:layout_height="wrap_content" android:layout_x="198dp" android:layout_y="324dp"></Button>
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>

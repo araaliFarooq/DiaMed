@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+
+xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent"
+>
+<AbsoluteLayout
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent"
+        android:layout_gravity="center_vertical">
+	<TextView
+            android:text="@string/vhighbg"
+        android:textColor="@color/red"
+		android:textSize="25px"
+		android:textStyle="bold" android:gravity="center_vertical" android:id="@+id/textView1"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_y="21dp"></TextView>
+    <Button
+     android:paddingRight="30px"
+     android:id="@+id/listen"
+     android:layout_width="100dp"
+     android:layout_height="wrap_content"
+     android:layout_x="174dp"
+     android:layout_y="240dp"
+     android:gravity="center"
+     android:text="Audio"
+     android:textColor="@android:color/black" />
+
+ <Button
+     android:id="@+id/back1"
+     android:layout_width="100dp"
+     android:layout_height="wrap_content"
+     android:layout_x="18dp"
+     android:layout_y="238dp"
+     android:gravity="center"
+     android:text="Finish" />
+</AbsoluteLayout>
+</ScrollView>

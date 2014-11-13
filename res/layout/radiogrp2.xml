@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+   android:background="@drawable/bckgrnd"
+>
+<LinearLayout 
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:gravity="center"
+  android:layout_marginTop="100dip"
+ 
+  >
+ <TextView 
+    android:layout_marginTop="100dip"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:id="@+id/textView1" 
+    android:text="What Time Of The Day"
+    android:textColor="@android:color/darker_gray"
+    android:textAppearance="?android:attr/textAppearanceLarge">
+    </TextView>
+ 
+ <RadioGroup
+ android:id="@+id/radioGrp2"
+  android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:orientation="vertical"
+   android:layout_marginTop="10dip"
+   >
+   <RadioButton
+    android:id="@+id/option1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="@android:color/darker_gray"
+    android:text="Before An Exercise" android:checked="false"/>
+   <RadioButton
+    android:id="@+id/option2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="@android:color/darker_gray"
+    android:text="After An Exercise" />
+   <RadioButton
+    android:id="@+id/option3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="@android:color/darker_gray"
+    android:text="Bed Time" />
+    <RadioButton
+    android:id="@+id/option4"
+    android:layout_width="wrap_content"
+    android:textColor="@android:color/darker_gray"
+    android:layout_height="wrap_content"
+    android:text=" After Bed" />
+ </RadioGroup>
+ <LinearLayout 
+ android:paddingTop="10dp"
+ android:layout_height="match_parent" 
+ android:paddingLeft="70dp" 
+ android:orientation="horizontal" 
+ android:layout_width="match_parent">
+ 
+     <Button 
+     android:enabled="false"
+     android:layout_marginLeft="45dp"
+     android:id="@+id/btnsub" android:layout_height="wrap_content" android:text="Continue" android:layout_width="80dp"></Button>
+     <Button android:id="@+id/btnclose" android:layout_height="wrap_content"
+	android:text="Cancel" android:layout_width="80dp"></Button>
+ </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

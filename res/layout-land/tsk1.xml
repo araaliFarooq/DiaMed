@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+	android:id="@+id/widget0"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+<EditText
+	android:id="@+id/text1"
+	android:layout_width="212dp"
+	android:layout_height="wrap_content"
+	android:textSize="18sp"
+	android:layout_x="57dp"
+	android:layout_y="64dp" />
+<ToggleButton
+	android:id="@+id/toggle2"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textOn="Toggle On"
+	android:textOff="Toggle Off"
+	android:layout_x="118dp"
+	android:layout_y="127dp" />
+<Button
+	android:id="@+id/cancel1"
+	android:layout_width="215dp"
+	android:layout_height="wrap_content"
+	android:text="cancel"
+	android:layout_x="52dp"
+	android:layout_y="312dp" />
+<Button
+	android:id="@+id/btn0"
+	android:layout_width="210dp"
+	android:layout_height="wrap_content"
+	android:text="login"
+	android:layout_x="56dp"
+	android:layout_y="231dp" />
+</AbsoluteLayout>

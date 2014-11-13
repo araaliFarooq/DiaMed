@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.diamed.DiaMed"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="8" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <permission
+        android:name="com.diamed.DiaMed.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="com.diamed.DiaMed.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:backupAgent="MyBackup"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".Intro"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.diamed.DiaMed.tutorial.TutorialActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="User Demo"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.diamed.DiaMed.tutorial.TutorialActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+       
+        <activity
+            android:name=".Help"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="Help"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Error_Dialog"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="ERROR DETECTED"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name=".Prefs"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="Preferences"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".RestoreHbpressure"
+            android:configChanges="orientation|keyboardHidden"
+            android:label=""
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".RestoreDiabetes"
+            android:configChanges="orientation|keyboardHidden"
+            android:label=""
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".RestoreOtherFiles"
+            android:configChanges="orientation|keyboardHidden"
+            android:label=""
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".RestoreBackup"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="Backup Restore"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".MainMenu"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="Home" >
+        </activity>
+        <activity
+            android:name=".PlaceDetails"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="Hospital Details"
+            android:theme="@style/AppBaseTheme" >
+        </activity>
+        <activity
+            android:name=".BackupOtherDiseases"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="Sending Other Diseases To Server" >
+        </activity>
+        <activity
+            android:name=".TaskReminder"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="Task Reminder" >
+        </activity>
+        <activity
+            android:name=".About"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="About"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".confirm"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="Confirm Deletion"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".confirm1"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="Confirm Deletion"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".confirm2"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="Confirm Deletion"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Backup"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="Creating Backup"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".AutoSms"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="Contacting Doctor"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".ControlPanel"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="Settings"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".editDoc"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="Edit Doctors Details"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".doctorsRegister"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="Register Personal Doctor"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Hospitals"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="Health Centres"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".diaValue"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".DiabetesValue"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Speak"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".ActivityBeforeDiabetesReading"
+            android:label="Activity Before Taking Reading"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".ActivityBeforePressureReading"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="Activity Before Taking Reading"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".diamed"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".presvalue"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".presvalue2"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".SaveData"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="Drug followup information"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".ViewOtherDiseases"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".ViewDiabetes"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".ViewPressure"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".RecomendationForPressure"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".RecomendationForDiabetes"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".trial"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".ChangePin"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="Changing Pin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CreateUserPin"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".BackupBloodPressure"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".HbPressureOptions"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".LoginUser"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".presSpeak"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".diaSpeak"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".progressBar"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name=".chartList" >
+        </activity>
+        <activity
+            android:name=".editDiabetes"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".editPressure"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".editFile"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".showDiaLineChart"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".showDiaChart"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".BackupDiabetes"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <receiver android:name="Reminder" />
+
+        <activity android:name="org.achartengine.GraphicalActivity" />
+        <activity android:name=".GraphicalActivity" >
+            <intent-filter>
+                <action android:name="org.achartengine.GRAPHICALACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.diamed.DiaMed.stream"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.diamed.DiaMed.STREAM" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+ <receiver
+            android:name="com.diamed.DiaMed.scheduler.ScheduleReceiver"></receiver>
+        <!-- Login Activity -->
+        <activity
+            android:name=".LoginServer"
+            android:label="Login Account" >
+        </activity>
+
+        <!-- Logged in -->
+        <activity
+            android:name=".DashboardActivity"
+            android:label="Logged in" >
+        </activity>
+
+        <!-- Register Activity -->
+        <activity
+            android:name=".RegisterApp"
+            android:label="Register New Account" >
+        </activity>
+
+       
+        
+        
+        
+    </application>
+
+</manifest>

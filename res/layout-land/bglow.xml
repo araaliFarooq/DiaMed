@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+ xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+>
+<LinearLayout
+
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+   android:layout_gravity="center" 
+  >
+    <TextView android:text="
+      Your Blood Glucose is low.
+      To increase you can choose some of the options below.
+      Take 1/2 a glass of fruit juice e.g. Apple, passion fruit, orange
+      Take a non-diet soda.
+      Take foods with carbohydrates like rice, potato chips, bread etc.
+	  Take 1 tablespoon of sugar dissolved in water.
+   	  Take 1 tablespoon of honey in tea.
+      Take 3 0r 4 tablets of glucose.
+      Eat 3 or 4 hard candies.
+      Eat mixed foods like peanut butter and crakers.
+      Repeat testing after 15 minutes.
+      If the results  are persistent for 2 days in a row seek medical help.
+      "
+      android:layout_gravity="center" 
+      android:textSize="15px"
+      android:textStyle="bold"
+      android:gravity="center"
+    android:id="@+id/textView1" 
+    android:layout_width="wrap_content"
+     android:layout_height="wrap_content">
+     </TextView>
+    <Button 
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/button1" android:text="Finish" ></Button>
+    
+</LinearLayout>
+</ScrollView>

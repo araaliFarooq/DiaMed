@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/bckgrnd"
+        >
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:padding="10dip" >
+        <!--  View Title Label #3b3b3b-->
+
+        <Button
+            android:id="@+id/createbtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+             android:gravity="right"
+            android:background="@null"
+            android:layout_gravity="right"
+            android:text="Create Pin"
+            android:textColor="#21dbd4"
+            android:textStyle="bold" />
+
+    <Button
+            android:id="@+id/registerbtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            
+            
+            android:layout_gravity="right"
+            
+            android:background="@null"
+            android:gravity="right"
+            android:text="User Panel"
+            android:textColor="#21dbd4"
+            android:textStyle="bold" />
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="70dip"
+            android:layout_height="65dip"
+            android:src="@drawable/bdia" 
+            android:layout_gravity="center"
+            />
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:text="LOGIN"
+                android:textSize="15dip"
+                android:textStyle="bold" />
+        <!--  Email Label -->
+        <!--  Email TextField -->
+
+        <!--  Password Label -->
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dip"
+                android:text="Confirm Pin" />
+        <!--  Password TextField -->
+
+        <EditText
+            android:id="@+id/ltext1"
+            android:layout_width="218dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:password="true" >
+
+            <requestFocus />
+        </EditText>
+
+<LinearLayout android:layout_width="fill_parent" android:gravity="center" android:orientation="horizontal"  android:layout_height="wrap_content">
+    <Button android:id="@+id/button0" android:layout_width="90dp" android:text="Login" android:layout_height="wrap_content" android:layout_x="35dp" android:layout_y="324dp"></Button>
+    <ToggleButton
+            android:checked="true"
+            android:id="@+id/toggleButton1" android:text="ToggleButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="133dp" android:layout_y="325dp"></ToggleButton>
+    <Button android:id="@+id/cancel" android:layout_width="97dp" android:text="Cancel" android:layout_height="wrap_content" android:layout_x="198dp" android:layout_y="324dp"></Button>
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>

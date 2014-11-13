@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+>
+<LinearLayout
+  
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:layout_gravity="center"
+  android:gravity="center"
+  >
+    <TextView android:text="
+    Your blood glucose is very low.
+    
+    You should administer a Glucagon injection.
+    
+    Let a friend or a family member help you if you can't
+    do it on your own.
+     
+    If it persists CALL YOUR DOCTOR !!!!
+    
+    
+    "
+    android:textSize="25px"
+     android:textColor="@color/red"
+     android:textStyle="bold"
+     android:gravity="center"
+     android:id="@+id/textView1" 
+     android:layout_width="wrap_content" 
+     android:layout_height="wrap_content"></TextView>
+     
+    <Button 
+    android:layout_gravity="center"
+    android:id="@+id/button1" 
+    android:layout_height="wrap_content"
+     android:text="Finish"
+      android:layout_width="wrap_content" 
+      android:layout_x="126dp" 
+      android:layout_y="200dp"></Button>
+    
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+  
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+>
+<AbsoluteLayout
+
+  android:orientation="horizontal"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:layout_gravity="center"
+  >
+    <TextView android:text="
+   Your blood glucose is high.
+   Incase you have type 1....
+   Do not do exercise.
+   Take a dose of insulin and can consider some options below:
+   Otherwise you can,
+    
+   Take plenty of water that is 8 glasses a day.
+   Do more exercises.
+   Reduce on the amount of carbohydrate foods such as potato chips, bread , and also fatty foods like red meat , chicken etc.
+   Take medication regularly and check if it is not expired.
+   Should relax.
+   Repeat the test after 15 minutes...
+   If the results  are persistent for 2 days in a row seek medical help.
+    "
+    android:textSize="15px"
+    android:textStyle="bold"
+    android:gravity="center"
+     android:id="@+id/textView1" 
+     android:layout_width="wrap_content"
+      android:layout_height="wrap_content"></TextView>
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/button1" android:text="Finish" android:gravity="center" android:layout_x="119dp" android:layout_y="417dp"></Button>
+    
+   
+    
+</AbsoluteLayout>
+</ScrollView>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+     >
+
+   
+        <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="50dip"
+       > 
+ <TextView 
+ 
+ android:textColor="#3333FF" 
+  android:textSize="70dip"
+ android:text="Dia" 
+android:id="@+id/major"
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content">
+ </TextView>
+ 
+ <TextView 
+ android:layout_marginTop="13dip"
+ android:textColor="#FF68DD"
+  android:textSize="70dip"
+ android:id="@+id/major1"
+ android:text="Med" 
+ android:layout_width="wrap_content" 
+ android:layout_height="wrap_content">
+ </TextView>
+</TableRow>
+        <ImageView 
+	  	android:id = "@+id/NiceLogo"
+	  	android:src="@drawable/bugroid" 
+	  	android:layout_width = "wrap_content"
+	  	android:layout_height = "wrap_content"
+	  	android:layout_gravity="center_horizontal"
+	  	android:padding="1dp"
+	  	android:layout_marginTop="5dp"
+	  	android:layout_marginBottom="40dp"
+	  	android:background="@color/bgcolor"
+	  	android:layout_weight="0.33"/>
+        
+         <TextView
+        android:id="@+id/minor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40dip"
+        android:gravity="center"
+        android:textColor="#0b636b"
+        android:layout_marginTop="5dip"
+        android:layout_marginLeft="40dip"
+        android:text="Managing   Diabetes" />
+
+</LinearLayout>

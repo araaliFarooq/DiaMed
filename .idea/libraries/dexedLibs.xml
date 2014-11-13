@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="dexedLibs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/android-support-v4-d21c25abb1d79033913bc65f09100a41.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/achartengine-0.6.0-0807554f74c46f7af2e355c66dc84615.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/gson-2.2.4-javadoc-ebc4faa3117d7fb5419c5359ff1216bd.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/gson-2.2.4-sources-5fefd83a388f066492512991cf0cd885.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/gson-2.2.4-f36e50c21d8963865c9bb482ed9da69d.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+-
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dip"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/major"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dia"
+            android:textColor="#3333FF"
+            android:textSize="70dip" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/major1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dip"
+            android:text="Med"
+            android:textColor="#FF68DD"
+            android:textSize="70dip" >
+        </TextView>
+    </TableRow>
+
+    <ImageView
+        android:id="@+id/NiceLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.12"
+        android:padding="3dp"
+        android:src="@drawable/blood"
+        />
+    
+    <TextView
+        android:id="@+id/minor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:gravity="center"
+        android:paddingLeft="3dip"
+        android:text="     Managing Diabetes And Blood Pressure"
+        android:textColor="#0b636b"
+        android:textSize="30dip" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="bottom"
+        android:text="BSE 14-33"
+        android:textSize="20dip"
+        android:typeface="serif" />
+
+</LinearLayout>

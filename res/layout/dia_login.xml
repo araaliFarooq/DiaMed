@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+
+android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@drawable/bckgrnd"
+>
+
+<AbsoluteLayout
+    android:id="@+id/widget0"
+    android:layout_width="fill_parent"
+    android:layout_height="426dp"
+        android:gravity="center"
+        >
+	
+	<ImageView android:id="@+id/iview" android:layout_width="108dp"
+		android:layout_height="64dp" android:layout_x="130dp"
+		android:layout_y="54dp" android:src="@drawable/bdia" />
+	<TextView  android:id="@+id/ltext0" android:layout_width="122dp"
+		android:layout_height="wrap_content" android:text="LOGIN"
+		android:gravity="center" android:layout_x="125dp" android:layout_y="160dp" />
+	<EditText android:password="true" android:textSize="18sp"
+		android:hint="" android:layout_height="wrap_content"
+		android:id="@+id/ltext1" android:layout_width="190dp"
+		android:layout_x="97dp" android:layout_y="210dp"></EditText>
+
+
+	<Button android:layout_width="102dp" android:id="@+id/button0"
+		android:text="Login" android:layout_height="wrap_content"
+		android:layout_x="45dp" android:layout_y="291dp"></Button>
+	<ToggleButton android:checked="true" android:layout_width="wrap_content"
+		android:id="@+id/toggleButton1" android:text="ToggleButton"
+		android:layout_height="wrap_content" android:layout_x="153dp"
+		android:layout_y="292dp"></ToggleButton>
+	<Button android:layout_width="102dp" android:id="@+id/cancel"
+		android:text="Cancel" android:layout_height="wrap_content"
+		android:layout_x="218dp" android:layout_y="292dp"></Button>
+
+    <Button
+            android:id="@+id/createbtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dip"
+            android:layout_marginTop="40dip"
+            android:layout_x="-14dp"
+            android:layout_y="16dp"
+            android:background="@null"
+            android:gravity="right"
+            android:text="Create Pin"
+            android:textColor="#21dbd4"
+            android:textStyle="bold" />
+
+    <Button
+            android:id="@+id/registerbtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dip"
+            android:layout_marginTop="40dip"
+            android:layout_x="-14dp"
+            android:layout_y="-2dp"
+            android:background="@null"
+            android:gravity="right"
+            android:text="User Panel"
+            android:textColor="#21dbd4"
+            android:textStyle="bold" />
+
+</AbsoluteLayout>
+</ScrollView>

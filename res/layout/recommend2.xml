@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/exercise3" >
+
+    <AbsoluteLayout
+        android:id="@+id/widget0"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <CheckedTextView
+            android:id="@+id/t1"
+            android:layout_width="290dp"
+            android:layout_height="350dp"
+            android:cursorVisible="true"
+            android:editable="false"
+            android:gravity="center"
+            android:text="@string/recommend2"
+            android:textColor="#f100"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/back1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="93dp"
+            android:layout_y="394dp"
+            android:text="Finish" >
+        </Button>
+
+        <Button
+            android:id="@+id/listen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="158dp"
+            android:layout_y="395dp"
+            android:text="Audio" >
+        </Button>
+    </AbsoluteLayout>
+
+</ScrollView>

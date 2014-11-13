@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+
+android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@drawable/bckgrnd"
+>
+<AbsoluteLayout android:id="@+id/widget0"
+android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:layout_gravity="center"
+	android:gravity="center"
+	android:paddingLeft="90dp"
+>
+	
+	<ImageView android:id="@+id/iview" android:layout_width="108dp"
+		android:layout_height="64dp" android:layout_x="107dp"
+		android:layout_y="54dp" android:src="@drawable/bdia" />
+	<TextView android:id="@+id/ltext0" android:layout_width="127dp"
+		android:layout_height="wrap_content" android:text="Login Here"
+		android:gravity="center" android:layout_x="92dp" android:layout_y="160dp" />
+	<EditText android:password="true" android:textSize="18sp"
+		android:hint=" Enter PIN" android:layout_height="wrap_content"
+		android:id="@+id/ltext1" android:layout_width="190dp"
+		android:layout_x="62dp" android:layout_y="210dp"></EditText>
+	<Button android:layout_width="102dp" android:id="@+id/button0"
+		android:text="Login" android:layout_height="wrap_content"
+		android:layout_x="28dp" android:layout_y="291dp"></Button>
+	<ToggleButton android:checked="true" android:layout_width="wrap_content"
+		android:id="@+id/toggleButton1" android:text="ToggleButton"
+		android:layout_height="wrap_content" android:layout_x="134dp"
+		android:layout_y="292dp"></ToggleButton>
+	<Button android:layout_width="102dp" android:id="@+id/cancel"
+		android:text="Cancel" android:layout_height="wrap_content"
+		android:layout_x="196dp" android:layout_y="292dp"></Button>
+</AbsoluteLayout>
+</ScrollView>

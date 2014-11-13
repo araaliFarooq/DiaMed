@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">DiaMed</string>
+    <string name="app_name">DiaMed</string>
+    <string name="createLabel">Create an Item</string>
+    <string name="quit">Exit</string>
+    <string name="error_demo_label">Demo an Error</string>
+    <string name="help_title">Help</string>
+    <string name="help_text">Use the Settings menu to change the display theme if your 
+        device is running Android 3.x or 4.x.
+        To Change Your Screen Size.
+        Long Press Some Buttons To find out what exactly they do.
+</string>
+<string
+        name="pref_key_flag_background_update">background_update_flag</string>
+    <string
+        name="pref_title_background_update_flag">Allow Auto Uploads</string>
+    <string
+        name="background_updating">Background Updating</string>
+    <string
+        name="display_prefs">Display Preferences</string>
+    <string
+        name="pref_title_only_unread">Show Unread Only</string>
+    <string
+        name="pref_summary_only_unread">Only display unread items in the list</string>
+    <string
+        name="pref_key_only_unread">only_unread_flag</string>
+    <string
+        name="pref_summary_background_update_flag">Allow Automatic Patient data upload</string>
+    <string name="about_text">This App helps Diabetes and HBP patients to make a follow up On Their Health Life Styles
+    As Pertain Diabetes And HBP, and Also Some Other Diseases.
+    .</string>
+    <string name="overrange">    Range Has No Recomendation.Seek Medical Assistance Or Try Again
+</string>
+    <string name="normal">        Your blood glucose level is normal.
+        To keep it that way,
+        Take lots of water at least 8 glasses a day.
+        Take a variety of fruits like apples, bananas, pineapples etc.
+        Have a Balanced diet comprising carbohydrates, proteins, vitamins,minerals,fibre etc.
+        Take medication regularly.
+        Do exercises .
+</string>
+    <string name="bglow">    Your Blood Glucose is low.
+      To increase you can choose some of the options below.
+      Take 1/2 a glass of fruit juice e.g. Apple, passion fruit, orange
+      Take a non-diet soda.
+      Take foods with carbohydrates like rice, potato chips, bread etc.
+	  Take 1 tablespoon of sugar dissolved in water.
+   	  Take 1 tablespoon of honey in tea.
+      Take 3 0r 4 tablets of glucose.
+      Eat 3 or 4 hard candies.
+      Eat mixed foods like peanut butter and crakers.
+      Repeat testing after 15 minutes.
+      If the results  are persistent for 2 days in a row seek medical help.
+</string>
+    <string name="bghigh">   Your blood glucose is high.
+   Incase you have type 1....
+   Do not do exercise.
+   Take a dose of insulin and can consider some options below:
+   Otherwise you can,
+    
+   Take plenty of water that is 8 glasses a day.
+   Do more exercises.
+   Reduce on the amount of carbohydrate foods such as potato chips, bread , and also fatty foods like red meat , chicken etc.
+   Take medication regularly and check if it is not expired.
+   Should relax.
+   Repeat the test after 15 minutes...
+   If the results  are persistent for 2 days in a row seek medical help.
+</string>
+    <string name="normalbg">    Your blood glucose level is normal.
+    To keep it that way.
+    Take lots of water atleast 8 glasses a day.
+    Take a variety of fruits like apples, bananas, pineapples etc.
+    Have a Balanced diet comprising cabohydrates, proteins, vitamins,minerals,fibre etc.
+    Take medication regularly.
+    Do exercises .
+</string>
+    <string name="vhighbg">       Your blood glucose level is very high..\n
+    
+    CALL YOUR DOCTOR OR SEEK EMERGENCY ATTENTION.!!!
+</string>
+    <string name="vlowbg">     Your blood glucose is very low.
+    
+    You should administer a Glucagon injection.
+    
+    Let a friend or a family member help you if you can\'t
+    do it on your own.
+     
+    If it persists CALL YOUR DOCTOR !!!!
+</string>
+    <string name="pdb">    You have prediabetes.....
+    
+    To avoid it from developing into type 2.
+    
+    You should watch your weight by doing exercises.
+    
+    You should take a balanced diet including saturated fat and soluble fiber.
+</string>
+    <string name="recommend1">	    Blood Pressure is extremely high.
+	
+	You need Urgent Medication to prevent a Heart Attack or a Fatal Stroke!!! and see a doctor .
+		
+	Avoid:   
+            •   Any stressful situations.
+            •	Sedentary(lack of adquate physical activity).
+	PLEASE HAVE HEALTHY BALANCED DIET MEALS TO KEEP BODY BALANCE AND TAKE LOTS OF WATER TOO!!
+		(Proteins,Carbohydrates,Irons/Minerals,Fibre,Vitamins like Friuts and Vegetables)
+    Some Symptoms are; Bloat(swelling ), Weakening(lacking physical strength).
+</string>
+    <string name="recommend2">	Blood Pressure is Too high.
+	You are advised to take Medication and seek medical attention
+	
+	YOU NEED TO DO MORE PHYSICAL ACTIVITIES LIKE:.
+	 		•	Try taking long supervised walks.
+			•	if you have an office job, take short trips to get water or to the bathrooms to prevent(Sedentary). 
+			•	You can also do light exercising.
+	MAKE SURE TO TALK TO A INSTRUCTOR ABOUT YOUR PROBLEM BEFORE STARTING!
+			•	Sedentary(lack of adquate physical activity)
+		
+	Avoid:  •	Any stressful situations.
+			•	Sedentary(lack of adquate physical activity).
+</string>
+    <string name="recommend3">	Borderline blood pressure. 
+		Your blood pressure is mildly high.
+		You are advised to take Medication or see a doctor to prescibe medication.
+	
+	YOU NEED TO DO MORE PHYSICAL ACTIVITIES LIKE:.
+	 		•	Try taking long supervised walks.
+			•	if you have an office job, take short trips to get water or to the bathrooms to prevent(Sedentary).
+			•	You can also do light exercising.	
+</string>
+    <string name="recommend4">	 CONGRATS.
+		YOUR BLOOD PRESSURE IS VERY NORMAL AND HEALTHY!!
+		
+		You are advised to take your regular Medication and see a doctor periodically as advised.
+		PLEASE HAVE HEALTHY BALANCED DIET MEALS TO KEEP BODY BALANCE AND TAKE LOTS OF WATER TOO!!
+		(Proteins,Carbohydrates,Irons/Minerals,Fibre,Vitamins like Friuts and Vegetables).
+	
+		Please continue doing regular exercises, and keep in shape.
+</string>
+    <string name="recommend5">	You blood pressure is Too Low.
+				
+		You are advised to take Medication or see a Doctor to prescribe medication to prevent syncope or fainting!!
+		
+		PLEASE HAVE HEALTHY BALANCED DIET MEALS TO KEEP BODY BALANCE AND TAKE LOTS OF WATER TOO!!
+		(Proteins,Carbohydrates,Irons/Minerals,Fibre,Vitamins like Friuts and Vegetables).
+</string>
+    <string name="recommend6">	You blood pressure is Extremely Low.
+				
+		You are advised to immediately take Medication or see a Doctor to prescribe medication to prevent syncope or fainting!!
+	
+		PLEASE HAVE HEALTHY BALANCED DIET MEALS TO KEEP BODY BALANCE AND TAKE LOTS OF WATER TOO!!
+		(Proteins,Carbohydrates,Irons/Minerals,Fibre,Vitamins like Friuts and Vegetables).
+</string>
+    <string name="about_title">About</string>
+    <string name="settings_title">Settings</string>
+    <string name="pref1_title">No titlebars</string>
+    <string name="pref1_summary">Suppress titlebars on screens(Works with Android 3.X And Above)</string>
+    <string name="pref2_title">Job priority</string>
+    <string name="pref2_summary">Set desired job priority</string>
+    <string name="pref3_title">User PIN</string>
+    <string name="pref3_summary">Edit the userpin</string>
+    <string name="pref4_title">Light background theme</string>
+    <string name="pref4_summary">Enable light background theme(Works with Android 3.X And Above)</string>
+    <string name="pref5_title">Enable Authentication</string>
+    <string name="pref5_summary">Enable Authentication On Start</string>
+    <string name="pref6_title">Enable Full Screen</string>
+    <string name="pref6_summary">Enables Device Full_Screen</string>
+    <string name="pref7_title">Always Show User Demo</string>
+    <string name="pref7_summary">Always Show User Demo on startup of the App</string>
+    <string name="create_item1">Diabetes</string>
+    <string name="create_item2">Blood Pressure</string>
+    <string name="create_item3">Other Diseases</string>
+    <string name="processMenu_title">Select Item</string>
+    <string name="Name">Name</string>
+    <string name="Desc">Description</string>
+    <string name="Date">Date</string>
+    <string name="Time">Time</string>
+    <string name="Reminder">Set</string>
+    <string name="DateClick">onDateClicked</string>
+    <string name="ReminderClick">onReminderClicked</string>
+    <string name="Timeclick">onTimeClicked</string>
+    <string name="task_description1">Enables You To Access The Diabetes User Interface To Enter Measurements For Blood Sugar Levels.</string>
+    <string name="task_description2">Enables You To Access The HBP User Interface To Enter Measurements For Blood Pressure Levels.</string>
+    <string name="str_btn_find">Find</string>
+
+    <string-array name="place_type">
+        <item>doctor</item>
+        <item>hospital</item>
+    </string-array>
+    <string-array name="place_type_name">
+        <item>Doctor</item>
+        <item>Hospital</item>
+    </string-array>
+
+</resources>

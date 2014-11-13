@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="updateOptions">
+        <item>High</item>
+        <item>Medium</item>
+        <item>Low</item>
+    </string-array>
+    <string-array name="updateIndex">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="task_descriptions">
+        <item>Descripton of Task 1</item>
+        <item>Descripton of Task 2</item>
+    </string-array>
+    <string-array name="place_type">
+        <item>doctor</item>
+        <item>hospital</item>
+    </string-array>
+    <string-array name="place_type_name">
+        <item>Doctor</item>
+        <item>Hospital</item>
+    </string-array>
+
+    <array name="create_item_names">
+        <item>@string/create_item1</item>
+        <item>@string/create_item2</item>
+    </array>
+
+</resources>
